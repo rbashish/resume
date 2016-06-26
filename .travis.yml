@@ -1,4 +1,6 @@
-language: html
-html:
-  - '4.0'
-  - '4.1'
+language: php
+php:
+  - '5.4'
+deploy:
+	skip_cleanup: true
+
