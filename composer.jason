@@ -1,1 +1,11 @@
 
+{
+    "authors": [
+        {
+            "name": "Nils Adermann",
+            "email": "naderman@naderman.de",
+            "homepage": "http://www.naderman.de",
+            "role": "Developer"
+        }
+     ]
+    }
