@@ -61,9 +61,9 @@
     $contents =  strtr($templateContents, $templateTags);
 
     if ( mail( $to, $subject, $contents, $headers ) ) {
-        $result = array( 'response' => 'success', 'message'=>'<strong>Thank You!</strong>&nbsp; Your email has been delivered.' );
+        $result = array( 'response' => 'success', 'message'=>'<strong>Oops!</strong>&nbsp; The message may not have been sent at this time. Instead you may write to <b>career@aashish.co.in</b> for faster communication.' );
     } else {
-        $result = array( 'response' => 'error', 'message'=>'<strong>Error!</strong>&nbsp; Cann\'t Send Mail.'  );
+        $result = array( 'response' => 'error', 'message'=>'<strong>Oops!</strong>&nbsp; The message could not be sent at this time. Instead please send a mail to <b>career@aashish.co.in</b> for faster communication.'  );
     }
 
     echo json_encode( $result );
